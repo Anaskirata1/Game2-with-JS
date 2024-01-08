@@ -1,0 +1,38 @@
+.game{
+    width: 255px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin: auto;
+    font-weight: bold;
+}
+
+.game .title{
+    background-color: #f25;
+    padding: 5px 0;
+    margin: 5px 0;
+}
+
+.game .title span{
+    color: #fa0;
+    font-size: 25px;
+    font-weight: bold;
+}
+.game .content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    justify-content: center;
+   
+
+}
+.game .square {
+    width: 80px;
+    height: 80px;
+    background-color: #f25;
+    font-size: 50px;
+}
+.game .square:hover{
+    background-color: black;
+    cursor: pointer;
+}
